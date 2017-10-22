@@ -68,4 +68,12 @@ public List<Student> getAllStudent(){
 		empMap.remove(Integer.parseInt(id));
 		System.out.println(empMap.toString());
 	}
+
+	public void deleteStud2(String id) {
+		// TODO Auto-generated method stub
+		System.out.println(id);
+		empMap.remove(Integer.parseInt(id));
+		System.out.println(empMap.toString());
+	}
+
 }

@@ -61,14 +61,7 @@ public class BasicController {
 		 service.deleteStud(id);
 	  
 	 }
-	 @DELETE
-	    @Path("/{id}")
-	    @Produces(MediaType.APPLICATION_JSON)
-	 public void deleteCountry2(@PathParam("id") String id)
-	 {
-		 service.deleteStud(id);
-	  
-	 }
+	
 
 }
 
